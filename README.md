@@ -18,7 +18,7 @@ Tras el análisis integral, se han identificado tres pilares críticos para redu
 
 A través del dashboard interactivo, se visualizó una **tasa de abandono total del 26.54%**. La segmentación por tipo de servicio permitió localizar el foco del problema en los usuarios de internet de alta velocidad.
 
-![Dashboard de Churn](img/dashboard_powerbi.png)
+![Dashboard de Churn](img/grafica-analisis-churn.png)
 
 ---
 
