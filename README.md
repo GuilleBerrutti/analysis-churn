@@ -40,6 +40,3 @@ Para validar las hipótesis visuales, se implementó un modelo de **Regresión L
 * `/scripts`: Código Python del modelo predictivo (`predictive_model.py`).
 * `/data`: Dataset procesado (`clientes_churn.csv`).
 * `/img`: Evidencias gráficas del proyecto.
-
----
-**Desarrollado por:** [Guillermo Berrutti](https://github.com/GuilleBerrutti)
