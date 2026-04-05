@@ -26,7 +26,7 @@ A través del dashboard interactivo, se visualizó una **tasa de abandono total 
 
 Para validar las hipótesis visuales, se implementó un modelo de **Regresión Logística** alcanzando una **precisión del 80%**. El siguiente gráfico de importancia de variables muestra matemáticamente qué factores "empujan" al cliente a la fuga y cuáles actúan como anclas de lealtad.
 
-![Importancia de Variables](img/grafico_churn_final.png)
+![Importancia de Variables](img/variable_de_fuga.png)
 
 ---
 
