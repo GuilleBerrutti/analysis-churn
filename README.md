@@ -107,6 +107,4 @@ El análisis demuestra que el churn puede gestionarse de forma proactiva mediant
 - `/SQL` → Scripts de limpieza y transformación  
 - `/Python` → Modelado y análisis predictivo  
 - `/Dashboard` → Archivo Power BI  
-- `/img` → Visualizaciones del proyecto  
-
-Dataset utilizado con fines educativos.
+- `/img` → Visualizaciones del proyecto 
