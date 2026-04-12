@@ -31,6 +31,9 @@ La retención de clientes es un factor crítico en modelos de suscripción. La o
 🔗 **Acceso al dashboard (Power BI):**  
 _Agregar link si está publicado_
 
+
+* 👉 *[Acceder al dashboard (Power BI)](https://github.com/GuilleBerrutti/collections-strategy-analytics/tree/main/collections-strategy-analytics/data)*
+
 📁 **Archivo local:**  
 `/Dashboard/churn-analysis.pbix`
 
