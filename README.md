@@ -1,44 +1,115 @@
-# 📊 Análisis de Churn: Estrategias de Retención de Clientes
-
-Este proyecto aplica un enfoque de **Data Science End-to-End** para identificar, analizar y predecir la fuga de clientes (*churn*), combinando la potencia de cálculo de **SQL**, la claridad visual de **Power BI** y la capacidad predictiva de **Machine Learning con Python**.
+# 📊 Análisis y Predicción de Churn (Customer Retention Analytics)
 
 ---
 
-## 💡 Conclusiones y Estrategia Sugerida (BLUF)
+## 🎯 Objetivo del Proyecto
 
-Tras el análisis integral, se han identificado tres pilares críticos para reducir la tasa de abandono y mejorar la salud del negocio:
+Analizar los factores que influyen en la fuga de clientes (*churn*) y desarrollar un modelo predictivo que permita **anticipar abandonos y optimizar estrategias de retención**.
 
-1.  **Migración de Contratos:** El modelo predictivo confirmó que los contratos de **uno y dos años** son los factores de retención más potentes. Se sugiere una estrategia comercial para incentivar el paso de contratos "Mes a mes" a anuales mediante bonificaciones.
-
-2.  **Auditoría de Fibra Óptica:** A pesar de ser tecnología de punta, la **Fibra Óptica** es el principal disparador de fuga. Es urgente auditar la calidad del servicio técnico o revisar la competitividad de precios en este segmento específico.
-
-3.  **Gestión de Cargos Mensuales:** Existe una correlación directa entre cargos elevados y abandono. Estrategias de *bundling* (paquetes de servicios) podrían mejorar la percepción de valor y reducir la rotación.
+El proyecto integra SQL, Python y Power BI para transformar datos de clientes en decisiones de negocio.
 
 ---
 
-## 📉 Evidencia 1: Análisis Descriptivo (Power BI)
+## 🧠 Problema de Negocio
 
-A través del dashboard interactivo, se visualizó una **tasa de abandono total del 26.54%**. La segmentación por tipo de servicio permitió localizar el foco del problema en los usuarios de internet de alta velocidad.
+La retención de clientes es un factor crítico en modelos de suscripción. La organización enfrenta:
+
+- Alta tasa de abandono de clientes  
+- Falta de visibilidad sobre causas del churn  
+- Dificultad para anticipar cancelaciones  
+
+👉 Pregunta clave del análisis:
+
+**¿Qué factores impulsan la fuga de clientes y cómo se pueden prevenir de manera proactiva?**
+
+---
+
+## 📊 Dashboard Interactivo
 
 ![Dashboard de Churn](img/grafica-analisis-churn.png)
 
+🔗 **Acceso al dashboard (Power BI):**  
+_Agregar link si está publicado_
+
+📁 **Archivo local:**  
+`/Dashboard/churn-analysis.pbix`
+
 ---
 
-## 🤖 Evidencia 2: Modelo Predictivo (Machine Learning)
+## 📊 Metodología
 
-Para validar las hipótesis visuales, se implementó un modelo de **Regresión Logística** alcanzando una **precisión del 80%**. El siguiente gráfico de importancia de variables muestra matemáticamente qué factores "empujan" al cliente a la fuga y cuáles actúan como anclas de lealtad.
+El análisis se desarrolló en tres etapas:
+
+### 1. Extracción y Preparación de Datos (SQL)
+- Limpieza y transformación de datos de clientes  
+- Construcción de variables relevantes para análisis  
+
+### 2. Análisis Exploratorio (Power BI)
+- Identificación de patrones de abandono  
+- Segmentación por tipo de contrato, servicio y costo  
+
+### 3. Modelado Predictivo (Python)
+- Implementación de modelo de regresión logística  
+- Evaluación de precisión y relevancia de variables  
+
+---
+
+## 💡 Insights Clave
+
+- **Tipo de contrato:**  
+  Los clientes con contratos mensuales presentan mayor probabilidad de churn.
+
+- **Servicio de internet:**  
+  La fibra óptica muestra tasas más altas de abandono, indicando posibles problemas de calidad o precio.
+
+- **Cargos mensuales:**  
+  Existe una relación directa entre mayor costo y mayor probabilidad de cancelación.
+
+- **Tasa de churn:**  
+  Se identificó una tasa total del **26.54%**, concentrada en segmentos específicos.
+
+---
+
+## 🤖 Modelo Predictivo
+
+Se implementó un modelo de **Regresión Logística** con una precisión aproximada del **80%**, permitiendo:
+
+- Predecir la probabilidad de abandono por cliente  
+- Identificar variables más influyentes en la decisión de churn  
+- Priorizar acciones de retención  
 
 ![Importancia de Variables](img/variable_de_fuga.png)
 
 ---
 
+## 📈 Conclusión y Recomendaciones
+
+El análisis demuestra que el churn puede gestionarse de forma proactiva mediante segmentación y modelos predictivos.
+
+👉 Recomendaciones:
+
+- Incentivar contratos de largo plazo para mejorar retención  
+- Revisar la calidad/precio del servicio de fibra óptica  
+- Diseñar estrategias de pricing y bundles para reducir abandono  
+- Utilizar el modelo predictivo para priorizar clientes en riesgo  
+
+---
+
 ## 🛠️ Stack Tecnológico
-* **Limpieza y ETL:** SQL (PostgreSQL).
-* **Procesamiento y ML:** Python (Pandas, Scikit-Learn).
-* **Visualización:** Power BI, Seaborn, Matplotlib.
+
+- **PostgreSQL** → Limpieza y preparación de datos  
+- **Python (Pandas, Scikit-learn)** → Modelado predictivo  
+- **Power BI** → Visualización y análisis exploratorio  
+- **Matplotlib / Seaborn** → Visualización estadística  
+
+---
 
 ## 📁 Estructura del Repositorio
-* `/sql`: Consultas de transformación y limpieza de datos.
-* `/scripts`: Código Python del modelo predictivo (`predictive_model.py`).
-* `/data`: Dataset procesado (`clientes_churn.csv`).
-* `/img`: Evidencias gráficas del proyecto.
+
+- `/Data` → Dataset utilizado (anonimizado)  
+- `/SQL` → Scripts de limpieza y transformación  
+- `/Python` → Modelado y análisis predictivo  
+- `/Dashboard` → Archivo Power BI  
+- `/img` → Visualizaciones del proyecto  
+
+Dataset utilizado con fines educativos.
