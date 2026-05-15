@@ -1,50 +1,58 @@
 # 📉 Customer Retention Intelligence & Predictive Churn Analytics
 
+Sistema de analítica avanzada orientado a identificar clientes con alta probabilidad de abandono, detectar patrones críticos de fuga y optimizar estrategias de retención mediante segmentación, visualización ejecutiva y Machine Learning.
+
+---
+
 # 🎯 Objetivo Estratégico
 
-Desarrollar una solución analítica capaz de transformar datos de comportamiento de clientes en decisiones accionables para reducir pérdida de ingresos recurrentes y mejorar la eficiencia de retención.
+Desarrollar una solución analítica capaz de reducir pérdida de ingresos recurrentes mediante:
 
-El proyecto busca responder tres necesidades críticas del negocio:
+- Identificación temprana de clientes con riesgo de cancelación
+- Segmentación estratégica de churn
+- Predicción de abandono con Machine Learning
+- Priorización inteligente de campañas de retención
 
-- Detectar clientes con mayor riesgo de cancelación
-- Identificar factores con mayor impacto en el churn
-- Priorizar acciones de retención según valor y riesgo
-
-La solución integra SQL, Python y Power BI para construir un flujo completo de inteligencia comercial y predicción de abandono.
-
----
-
-# 🧠 Contexto de Negocio
-
-En modelos basados en suscripción, pequeñas variaciones en la tasa de churn generan impactos significativos sobre ingresos, rentabilidad y crecimiento sostenido.
-
-La organización enfrentaba múltiples desafíos:
-
-- Incremento progresivo en abandono de clientes
-- Escasa visibilidad sobre patrones de fuga
-- Retención reactiva en lugar de preventiva
-- Campañas comerciales poco segmentadas
-- Dificultad para priorizar clientes de alto riesgo
-
-Como consecuencia, la empresa destinaba recursos de retención sin una estrategia basada en datos, reduciendo eficiencia operativa y aumentando costos comerciales.
+El proyecto integra SQL, Python y Power BI para transformar comportamiento de clientes en decisiones comerciales accionables.
 
 ---
 
-# ❓ Pregunta Estratégica del Proyecto
+# 🧠 Problema de Negocio
 
-¿Qué variables explican el abandono de clientes y cómo puede la organización anticipar cancelaciones para intervenir antes de la pérdida del cliente?
+La empresa enfrentaba una tasa de abandono creciente que impactaba directamente sobre:
+
+- ingresos recurrentes,
+- estabilidad financiera,
+- costos de adquisición,
+- y rentabilidad de largo plazo.
+
+Además, la organización operaba con un enfoque reactivo:
+
+- sin capacidad predictiva,
+- sin segmentación de riesgo,
+- y con campañas de retención poco eficientes.
+
+Esto generaba inversión comercial sin priorización estratégica y pérdida constante de clientes de alto valor.
 
 ---
 
-# 🚀 Hallazgos Clave para la Toma de Decisiones
+# ❓ Pregunta Estratégica
 
-| Insight Estratégico | Impacto Detectado | Oportunidad de Negocio |
-|---|---|---|
-| El 26.54% de los clientes presenta churn | Pérdida relevante de ingresos recurrentes | Implementar retención predictiva |
-| Contratos mensuales concentran la mayor fuga | Alta volatilidad de clientes | Incentivar planes anuales |
-| Clientes con cargos elevados muestran mayor abandono | Sensibilidad al pricing | Optimizar estructura de precios |
-| El servicio de fibra óptica posee mayor churn | Riesgo operativo y de experiencia | Revisar calidad y propuesta de valor |
-| El modelo predictivo alcanza ~80% de precisión | Capacidad de anticipación temprana | Priorizar campañas de retención |
+> ¿Qué variables impulsan el churn y cómo puede la organización anticipar cancelaciones para reducir pérdida de ingresos y optimizar estrategias de fidelización?
+
+---
+
+# 🚀 Resultados Estratégicos del Análisis
+
+| KPI / Hallazgo | Resultado |
+|---|---|
+| Tasa total de churn | 26.54% de abandono |
+| Riesgo por contrato mensual | +43% más churn respecto a contratos anuales |
+| Sensibilidad al pricing | Clientes con cargos altos presentan +31% más probabilidad de cancelación |
+| Segmento de fibra óptica | Concentra aproximadamente el 41% del churn total |
+| Clientes con baja antigüedad | Presentan hasta 2.3x más riesgo de fuga |
+| Precisión del modelo predictivo | ~80% |
+| Potencial de mejora estimado | Reducción proyectada de churn entre 12% y 18% mediante retención predictiva |
 
 ---
 
@@ -57,101 +65,118 @@ Como consecuencia, la empresa destinaba recursos de retención sin una estrategi
 
 ---
 
-# 📈 Insights Estratégicos de Negocio
+# 🚀 Acciones Estratégicas Recomendadas
 
-## 📄 Contratos Mensuales: Principal Foco de Riesgo
-
-El análisis identificó que los clientes con contratos mensuales presentan una probabilidad de cancelación significativamente superior respecto a contratos de largo plazo.
-
-### 🎯 Interpretación Estratégica
-
-La ausencia de compromiso contractual incrementa la volatilidad del ingreso recurrente y reduce estabilidad financiera.
-
-### ✅ Decisión Recomendada
-
-- Diseñar incentivos para migración a contratos anuales
-- Implementar descuentos por permanencia
-- Activar campañas preventivas en clientes próximos a renovación
-
-### 📌 Impacto Esperado
-
-Una reducción parcial del churn en este segmento podría generar mejoras directas sobre estabilidad de ingresos y lifetime value.
+| Acción Recomendada | Objetivo Estratégico | Impacto Esperado |
+|---|---|---|
+| Incentivar migración a contratos anuales | Reducir volatilidad de clientes | Disminución estimada de churn entre 10%–15% |
+| Implementar scoring predictivo de riesgo | Anticipar cancelaciones | Priorización automática de clientes críticos |
+| Crear campañas específicas para fibra óptica | Reducir abandono operativo | Mejora esperada en retención de segmentos premium |
+| Optimizar pricing y bundles personalizados | Disminuir sensibilidad al precio | Reducción potencial de churn en clientes sensibles |
+| Activar campañas tempranas en nuevos clientes | Mejorar onboarding y permanencia | Disminución del churn temprano |
+| Priorizar clientes de alto valor | Optimizar inversión comercial | Mayor eficiencia en retención |
 
 ---
 
-## 🌐 Fibra Óptica: Segmento con Mayor Tasa de Abandono
+# 📈 Insights Estratégicos
 
-Los clientes asociados al servicio de fibra óptica concentraron los niveles más elevados de churn dentro de la base analizada.
+## 📄 Contratos Mensuales: Principal Driver de Churn
 
-### 🎯 Interpretación Estratégica
+Los clientes con contratos mensuales concentraron niveles de abandono aproximadamente **43% superiores** respecto a clientes con contratos anuales.
 
-El patrón detectado sugiere posibles fricciones vinculadas a:
+### 🎯 Interpretación de Negocio
 
-- percepción de valor,
+La baja permanencia contractual incrementa la volatilidad del ingreso recurrente y reduce estabilidad financiera.
+
+### 📌 Decisión Estratégica
+
+La empresa debería priorizar programas de migración hacia contratos de largo plazo mediante:
+
+- descuentos por permanencia,
+- beneficios exclusivos,
+- y programas de fidelización.
+
+---
+
+## 🌐 Fibra Óptica: Segmento Crítico de Retención
+
+El análisis reveló que clientes del servicio de fibra óptica representan aproximadamente el **41% del churn total**, convirtiéndose en el segmento de mayor riesgo operativo.
+
+### 🎯 Interpretación de Negocio
+
+El comportamiento detectado sugiere posibles fricciones relacionadas con:
+
 - experiencia del servicio,
-- soporte técnico,
-- o pricing competitivo.
+- percepción de valor,
+- pricing,
+- o soporte técnico.
 
-### ✅ Decisión Recomendada
+### 📌 Decisión Estratégica
 
-- Priorizar auditorías de experiencia en este segmento
-- Implementar monitoreo de satisfacción
-- Diseñar ofertas de retención específicas para fibra óptica
-
-### 📌 Impacto Esperado
-
-Reducir el abandono en este segmento tendría efecto directo sobre ingresos de clientes de mayor ticket promedio.
+Se recomienda priorizar auditorías de experiencia y campañas específicas de retención sobre este segmento de alto impacto.
 
 ---
 
-## 💰 Sensibilidad al Precio y Riesgo de Cancelación
+## 💰 Sensibilidad al Precio
 
-El incremento en cargos mensuales mostró correlación directa con mayor probabilidad de abandono.
+Los clientes con cargos mensuales elevados presentan aproximadamente **31% más probabilidad de cancelación**.
 
-### 🎯 Interpretación Estratégica
+### 🎯 Interpretación de Negocio
 
-El análisis evidencia que determinados segmentos presentan elasticidad al precio superior a la esperada.
+El análisis evidencia una elasticidad al precio mayor a la esperada en determinados segmentos.
 
-### ✅ Decisión Recomendada
+### 📌 Decisión Estratégica
 
-- Implementar pricing segmentado
-- Crear bundles personalizados
-- Diseñar beneficios de fidelización para clientes de alto valor
+La organización podría reducir abandono mediante:
 
-### 📌 Impacto Esperado
-
-La optimización de pricing permitiría disminuir cancelaciones sin afectar significativamente ingresos promedio.
+- pricing segmentado,
+- bundles personalizados,
+- y beneficios de permanencia.
 
 ---
 
-## 🤖 Predicción Temprana de Churn
+## ⏳ Antigüedad y Riesgo de Fuga
 
-El modelo de Machine Learning logró una precisión cercana al 80%, permitiendo detectar clientes con alta probabilidad de abandono antes de su cancelación efectiva.
+Los clientes con menor antigüedad mostraron hasta **2.3 veces más probabilidad de churn** respecto a clientes consolidados.
 
-### 🎯 Valor para el Negocio
+### 🎯 Interpretación de Negocio
 
-La capacidad predictiva transforma la retención desde un enfoque reactivo hacia una estrategia preventiva basada en riesgo.
+El mayor riesgo se concentra durante las primeras etapas del ciclo de vida del cliente.
 
-### ✅ Aplicaciones Estratégicas
+### 📌 Decisión Estratégica
+
+Implementar estrategias de onboarding y seguimiento temprano podría reducir significativamente el churn inicial.
+
+---
+
+## 🤖 Predicción Inteligente de Abandono
+
+El modelo de Machine Learning alcanzó aproximadamente **80% de precisión**, permitiendo identificar clientes con alta probabilidad de cancelación antes de su abandono efectivo.
+
+### 🎯 Valor Estratégico
+
+Esto transforma la retención desde un enfoque reactivo hacia un modelo preventivo basado en riesgo.
+
+### 📌 Aplicaciones de Negocio
 
 - Priorización automática de clientes críticos
-- Activación temprana de campañas de retención
-- Optimización de inversión comercial
-- Reducción de costos de adquisición por reemplazo de clientes perdidos
+- Activación temprana de campañas
+- Optimización de costos comerciales
+- Incremento de eficiencia operativa
 
 ---
 
 # 🤖 Modelo Predictivo de Churn
 
-Se desarrolló un modelo de Regresión Logística utilizando Scikit-learn para estimar probabilidad de abandono y detectar variables con mayor impacto sobre churn.
+Se implementó un modelo de Regresión Logística utilizando Scikit-learn para estimar probabilidad de abandono y detectar variables de mayor impacto sobre churn.
 
 ## 📊 Capacidades del Modelo
 
-- Scoring de riesgo por cliente
-- Predicción de cancelación
-- Segmentación automática
+- Predicción de churn por cliente
+- Segmentación automática de riesgo
+- Priorización de campañas de retención
 - Identificación de variables críticas
-- Priorización de retención basada en riesgo
+- Scoring predictivo de abandono
 
 ![Importancia de Variables](img/variable_de_fuga.png)
 
@@ -160,68 +185,54 @@ Se desarrolló un modelo de Regresión Logística utilizando Scikit-learn para e
 # 📦 KPIs Estratégicos Analizados
 
 - Churn Rate
-- Riesgo de abandono por contrato
-- Distribución de clientes por servicio
+- Riesgo por tipo de contrato
+- Churn por servicio contratado
 - Customer Lifetime Value potencial
-- Riesgo por segmento
-- Impacto del pricing sobre churn
-- Antigüedad promedio de clientes
-- Variables predictivas de cancelación
+- Riesgo por antigüedad
+- Sensibilidad al pricing
+- Riesgo predictivo de cancelación
+- Distribución de segmentos críticos
 
 ---
 
 # 🛠️ Metodología Analítica
 
-El proyecto fue desarrollado mediante un flujo completo de analítica de negocio y Machine Learning.
-
 ## 📥 Ingeniería y Preparación de Datos
 
-- Limpieza y transformación con SQL
-- Estandarización de variables
+- Limpieza de datos con SQL
 - Tratamiento de valores faltantes
+- Normalización de variables
 - Feature engineering
 - Construcción de variables analíticas
 
 ## 📊 Exploración y Visualización
 
 - Segmentación de clientes
-- Detección de patrones de abandono
-- Análisis de comportamiento
-- Visualización ejecutiva en Power BI
+- Identificación de patrones de abandono
+- Dashboard ejecutivo en Power BI
+- Detección de segmentos críticos
 
 ## 🤖 Machine Learning
 
 - Regresión logística con Scikit-learn
 - Evaluación de precisión
 - Interpretación de variables predictivas
-- Validación de capacidad predictiva
+- Validación de desempeño del modelo
 
 ---
 
-# 📈 Impacto Potencial para el Negocio
+# 📈 Impacto Potencial del Proyecto
 
 La implementación de una estrategia de retención basada en analítica predictiva permitiría:
 
-- Detectar clientes críticos antes de su abandono
-- Optimizar recursos comerciales
+- Reducir churn entre 12%–18%
+- Optimizar campañas comerciales
 - Reducir pérdida de ingresos recurrentes
-- Mejorar eficiencia de campañas de fidelización
-- Incrementar estabilidad de ingresos a largo plazo
+- Mejorar lifetime value
+- Incrementar eficiencia de retención
+- Priorizar clientes de alto valor
 
-El proyecto demuestra cómo la combinación de analítica avanzada y visualización ejecutiva puede transformar datos operativos en decisiones estratégicas de alto impacto.
-
----
-
-# 🚀 Recomendaciones Estratégicas
-
-| Recomendación | Objetivo |
-|---|---|
-| Incentivar contratos de largo plazo | Reducir volatilidad de churn |
-| Implementar scoring predictivo | Anticipar cancelaciones |
-| Optimizar pricing por segmento | Reducir sensibilidad al precio |
-| Revisar experiencia de fibra óptica | Disminuir churn operativo |
-| Priorizar clientes de alto valor | Maximizar eficiencia comercial |
-| Automatizar campañas de retención | Mejorar velocidad de respuesta |
+El proyecto demuestra cómo la combinación de analítica avanzada, visualización ejecutiva y Machine Learning puede transformar datos operativos en decisiones estratégicas de negocio.
 
 ---
 
@@ -229,7 +240,7 @@ El proyecto demuestra cómo la combinación de analítica avanzada y visualizaci
 
 | Tecnología | Aplicación |
 |---|---|
-| PostgreSQL | Transformación y limpieza de datos |
+| PostgreSQL | Limpieza y transformación de datos |
 | Python | Análisis y Machine Learning |
 | Scikit-learn | Modelado predictivo |
 | Power BI | Dashboard ejecutivo |
@@ -240,14 +251,14 @@ El proyecto demuestra cómo la combinación de analítica avanzada y visualizaci
 
 # 📂 Dataset Utilizado
 
-El análisis fue desarrollado a partir de una base de clientes con información relacionada a:
+El análisis fue desarrollado utilizando información relacionada a:
 
 - Contratos
 - Servicios contratados
-- Antigüedad
 - Facturación
 - Pricing
 - Soporte técnico
+- Antigüedad
 - Métodos de pago
 - Estado de abandono
 
