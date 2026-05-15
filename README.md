@@ -1,7 +1,5 @@
 # 📉 Customer Retention Intelligence & Predictive Churn Analytics
 
-Sistema de analítica avanzada orientado a identificar clientes con alta probabilidad de abandono, detectar patrones críticos de fuga y optimizar estrategias de retención mediante segmentación, visualización ejecutiva y Machine Learning.
-
 ---
 
 # 🎯 Objetivo Estratégico
