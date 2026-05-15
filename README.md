@@ -91,6 +91,11 @@ La implementación de una estrategia de retención basada en analítica predicti
 
 El proyecto demuestra cómo la combinación de analítica avanzada, visualización ejecutiva y Machine Learning puede transformar datos operativos en decisiones estratégicas de negocio.
 
+<p align="center">
+  <img src="img/variable_de_fuga.png" width="75%">
+</p>
+
+
 ![Importancia de Variables](img/variable_de_fuga.png)
 
 ---
